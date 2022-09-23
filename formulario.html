@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <!--ÁREA DO CABEÇALHO-->
+        <br><br>
+        <p class="teto">Equatorial Solar
+        <hr> </p>
+        <br>
+        </div>
+
+        <nav id="menu">
+            <!--Menu de opcoes-->
+            <ul class="menu pags">
+                <li class="paginas"><a href="index.html">Início</a></li>
+                <li class="paginas"><a href=""target="_blank" >Sobre Energia Solar</a></li>
+                <li class="paginas"><a href="" target="_blank">Simular Consumo</a>
+                </li>
+            </ul>
+        </nav> <!-- Fim menu opcoes-->
+    </header>
+    <div>
+        <h1 id="titulo">Preencha seus dados para receber o E-BOOK</h1>
+        <br>
+    </div>
+
+    <form>
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label><br>
+                <input type="text" name="nome" id="nome" >
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label><br>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label><br>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="interesse">
+        <label for="vehicle1"> Tenho interesse em receber notícias</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="concordar">
+         <label for="vehicle2"> Ao informar os meus dados, concordo com os termos da </label><a href="https://policies.google.com/privacy?hl=pt-BR"> Politica de Privacidade</a><br>
+
+        <div class="campo">
+            <br>
+            <label for="comentario"><strong>Deixe seu comentario</strong></label><br>
+            <textarea rows="6" style="width: 26em" id="comentario" name="comentario"></textarea>
+        </div>
+
+        <button class="botao" type="submit" onsubmit="">Enviar</button>            
+
+    </form>
+    
+</body>
+</html>
